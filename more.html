@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Christopher Nolan </title>
+    <link href="assets/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <button type="button" class="lightsButton" onclick="toggleLights();">Toggle lights 💡</button>
+  <!-- intro section (header)  -->
+    <div class="intro">
+        <img src="assets/images/500full.jpg">
+        <span>
+           " The Great Christopher Nolan, is not just movie maker he 
+            <br>
+            is something no one can describe 🎥 "
+       </span>
+    </div>
+
+   <!-- info section (contecnt)  -->
+    <center>
+        <p style="margin-top: 32px;">
+          🍿  المزيد من الأفلام المميزة للمخرج كريستفور نولان<br>
+            <label style="font-size: 10px;">(من وجهه نظري ومن وجهه نظر الجميع)</label>
+        </p>
+    </center>
+   <!-- [Movies section]  -->
+            <div class="container" style="padding: 0px 0px;margin-top: 30px;justify-content: center;">
+              <a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank">
+                <div class="moveis" style="width: 120px;height: 183px;background-image: url(assets/images/movies/intersteallr.jpg);">
+                  <label style="background: #02020275;">🎥 Intersteallr (2011)</label>
+                </div>   
+              </a>
+           <a href="https://en.wikipedia.org/wiki/Inception" target="_blank">
+              <div class="moveis" style="width: 120px;height:183px; background-image: url(assets/images/movies/inception.jpg);">
+                <label style="background: #02020275;">🎥 Inception (2010)</label>
+              </div>   
+            </a>
+           <a href="https://en.wikipedia.org/wiki/The_Dark_Knight_(film)" target="_blank">
+              <div class="moveis" style="width: 120px;height:183px; background-image: url(assets/images/movies/thedarkknight.jpg);">
+                <label style="background: #02020275;">🎥 The Dark Knight (2008)</label>
+              </div>   
+            </a>
+            <a href="https://www.imdb.com/title/tt0482571/" target="_blank">
+                <div class="moveis" style="width: 120px;height:183px; background-image: url(assets/images/movies/thepristegge.jpg);">
+                  <label style="background: #02020275;">🎥 The Prestige (2006)</label>
+                </div>   
+              </a>
+              <a href="https://en.wikipedia.org/wiki/Tenet_(film)" target="_blank">
+                <div class="moveis" style="width: 120px;height:183px; background-image: url(assets/images/movies/tenet.jpg);">
+                  <label style="background: #02020275;">🎥 TENET (2020)</label>
+                </div>   
+              </a>
+              <a href="https://en.wikipedia.org/wiki/Dunkirk_(2017_film)" target="_blank">
+                <div class="moveis" style="width: 120px;height:183px; background-image: url(assets/images/movies/dunkrik.jpg);">
+                  <label style="background: #02020275;">🎥 Dunkrik (2019)</label>
+                </div>   
+              </a>
+              <a href="https://en.wikipedia.org/wiki/Batman_Begins" target="_blank">
+                <div class="moveis" style="width: 120px;height:183px; background-image: url(assets/images/movies/batmanbegins.jpg);">
+                  <label style="background: #02020275;">🎥 Batman Begins (2005)</label>
+                </div>   
+              </a>
+              <a href="https://en.wikipedia.org/wiki/Memento_(film)" target="_blank">
+                <div class="moveis" style="width: 120px;height:183px; background-image: url(assets/images/movies/memnto.jpg);">
+                  <label style="background: #02020275;">🎥 Memento (2000)</label>
+                </div>   
+              </a>
+    
+         </div>
+
+   <!-- [More section]  -->
+    <center>
+        <a href="index.html"><br>
+            <button type="button" class="lightsButton" style="position: static">Back to main page</button>
+        </a>
+    </center> 
+
+    <!-- Footer  -->
+     <footer>
+       <div class="BarmejFooter">
+            <img width="50px" src="C:\Users\1A4\Documents\GitHub\web-hw-1\assets\images\barmej.svg">
+            <a target="_blank" href="https://twitter.com/joincoded" class="fa fa-twitter icon"></a>
+            <a target="_blank" href="https://www.instagram.com/joincoded/" class="fa fa-instagram icon"></a>
+            <a target="_blank" href="https://code.kw/" class="fa fa-chrome icon"></a>
+      </div>
+
+      <div class="MyFooter">
+        <span>Created with ❤ by Athbi </span>
+        <a target="_blank" href="https://www.instagram.com/u.fd/" class="fa fa-instagram icon"></a>
+        <a target="_blank" href="https://github.com/Athbi989" class="fa fa-github icon"></a>
+
+      </div>
+
+    </footer> 
+    <script>
+        //Something fun 
+        var Lights = false ; 
+        let toggleLights = function () {
+          if ( Lights == false ) {
+             document.getElementsByTagName('body')[0].style = "background: #070707;";
+             Lights = true ;
+          } else {
+            document.getElementsByTagName('body')[0].style = "background: linear-gradient(0deg, #070707, black 80%) fixed no-repeat;";
+            Lights = false ;
+          }
+        };
+  
+      </script>
+  
+    </body>
+</html>

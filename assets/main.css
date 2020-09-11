@@ -1,0 +1,185 @@
+/* this is the heart of pages */
+@font-face {
+    font-family: Cario;
+    src: url(LittileCoustmfont.ttf);
+  }
+
+body {
+    font-family: Cario ;
+    /* background: #070707;  */
+    background: linear-gradient(0deg, #070707, black 80%) fixed no-repeat;
+    color: #dfdfdf;
+}
+
+
+
+/* Intro side */
+
+.intro {
+    margin: auto;
+    text-align: center;
+}
+.intro img {
+    border-radius: 25px;
+}
+.intro img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.intro span {
+    margin-top: -85px;
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+}
+
+/* Info side */
+
+.container {
+    margin-top: 50px;
+    padding: 20px ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center; 
+
+}
+
+.container .item {
+    flex: 1;
+    border: 1px solid #5656565c;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    transition: 0.1s;  
+    margin-top: 25px;
+}
+
+.container a {
+    color:  white;
+    text-decoration: none;
+}
+
+.container span {
+    font-size: 35px;
+}
+
+.container img {
+    width: 27px;
+}
+
+.container .item:hover {
+    box-shadow: -1px 2px 8px 2px rgb(56 51 51 / 20%);
+}
+
+.awrads {
+    border: 1px solid #5656565c;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    margin-top: 10px;
+    /* max-height: 78px; */
+    height: 15px;
+}
+
+.awrads label {
+    display: block;
+    margin-top: -7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.awrads a {
+    font-size: 10px;
+    color: #376c84;
+}
+
+
+
+.moveis {
+    border: 1px solid #5656565c;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    margin-top: 10px;
+    widows: 105px;
+    width: 88px;
+    height: 141px;
+    background-size: contain;
+}
+
+
+.moveis label {
+    font-size: 14px;
+}
+
+
+.lightsButton {
+    background-color: rgb(6 6 6);
+    border-radius: 7px;
+    border: 1px solid rgb(7 7 7);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 14px;
+    padding: 16px 31px;
+    text-decoration: none;
+    position: absolute;
+}
+
+
+
+
+/* Responisve things */
+@media (min-width:500px) {
+    .container {
+        display: flex;
+    }     
+}
+
+
+/* footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #131313;
+    color: white;
+    text-align: center;
+  }
+
+.BarmejFooter {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.MyFooter {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    margin: 0px 20px;
+}
+
+
+ .icon {
+    border: 1px solid #5656565c;
+    padding: 5px;
+    margin-left: 10px;
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.icon:hover {
+    background: #06060633;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Christopher Nolan </title>
+    <link href="assets/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <button type="button" class="lightsButton" onclick="toggleLights();">Toggle lights 💡</button>
+  <!-- intro section (header)  -->
+    <div class="intro">
+        <img src="assets/images/500full.jpg">
+        <span>
+           " The Great Christopher Nolan, is not just movie maker he 
+            <br>
+            is something no one can describe 🎥 "
+       </span>
+    </div>
+
+   <!-- info section (contecnt)  -->
+    <div class="container">
+
+   <!-- [Prize section]  -->
+        <div class="item">
+          <span><img src="assets/images/trophy.png"> ابرز الجوائز</span>
+          <h4><b>التي حصل عليها خلال مسيرتة</b></h4>
+            <div class="awrads">
+              <label>🏆 Empire Award for Best Film - 2009 (The Dark Knight) <a target="_blank" href="https://en.wikipedia.org/wiki/Empire_Award_for_Best_Film">(المزيد)</a></label>
+            </div>
+            <div class="awrads">
+              <label>🏆 Empire Award for Best Director - 2015 (Intersteallr) <a target="_blank" href="https://en.wikipedia.org/wiki/Empire_Award_for_Best_Director">(المزيد)</a></label>
+            </div>
+            <div class="awrads">
+              <label>🏆 Robert Award for Best American Film - 2011 (Inception) <a target="_blank" href="https://en.wikipedia.org/wiki/Robert_Award_for_Best_American_Film">(المزيد)</a></label>
+            </div>
+        </div>
+   <!-- [About section]  -->
+        <div class="item">
+          <span> من هو ؟</span>
+              <h4><b>Christopher Nolan</b></h4>
+              <p>كريستوفر جوناثان جيمس نولان (بالإنجليزية: Christopher Jonathan James Nolan)‏ هو مخرج ومنتج وكاتب سينمائي بريطاني أمريكي، وُلد في 30 يوليو 1970 في لندن. في رصيده العديد من الأفلام الأكثر نجاحاً تجارياً ونقدياً في أوائل القرن الحادي والعشرين.
+              </p>
+         </div>
+   <!-- [Movies section]  -->
+          <div class="item">
+            <span><img src="assets/images/video-camera.svg"> اعماله الفنية</span>
+            <h4><b>بعض الأعمال المميزة</b></h4>
+            <div class="container" style="padding: 0px 0px;margin-top: 0px;justify-content: center;">
+              <a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank">
+                <div class="moveis" style="background-image: url(https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg);">
+                  <label style="background: #02020275;">🎥 Intersteallr (2011)</label>
+                </div>   
+              </a>
+           <a href="https://en.wikipedia.org/wiki/Inception" target="_blank">
+              <div class="moveis" style="background-image: url(https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/inceptionmovie-newposter-big.jpg?itok=zn3rPAOq);">
+                <label style="background: #02020275;">🎥 Inception (2010)</label>
+              </div>   
+            </a>
+           <a href="https://en.wikipedia.org/wiki/The_Dark_Knight_(film)" target="_blank">
+              <div class="moveis" style="background-image: url(https://lh3.googleusercontent.com/auIs5tjWlLYaFPGClZOJ7m5YVbnX6uBvz0X02r8TkwFKdzE53ww2MqWSS9gU0YNqoYwvpg);">
+                <label style="background: #02020275;">🎥 The Dark Knight (2008)</label>
+              </div>   
+            </a>
+            </div>
+       </div>
+    </div>
+   <!-- [More section]  -->
+   <center>
+    <label>المزيد من الأفلام ( الصفحة التالية )</label>
+    <a href="more.html"><br>
+      <img style="width: 38px; margin-top: 10px;" src="assets/images/more.png">
+    </a>
+  </center>
+    <!-- Footer  -->
+     <footer>
+       <div class="BarmejFooter">
+            <img width="50px" src="C:\Users\1A4\Documents\GitHub\web-hw-1\assets\images\barmej.svg">
+            <a target="_blank" href="https://twitter.com/joincoded" class="fa fa-twitter icon"></a>
+            <a target="_blank" href="https://www.instagram.com/joincoded/" class="fa fa-instagram icon"></a>
+            <a target="_blank" href="https://code.kw/" class="fa fa-chrome icon"></a>
+      </div>
+
+      <div class="MyFooter">
+        <span>Created with ❤ by Athbi </span>
+        <a target="_blank" href="https://www.instagram.com/u.fd/" class="fa fa-instagram icon"></a>
+        <a target="_blank" href="https://github.com/Athbi989" class="fa fa-github icon"></a>
+
+      </div>
+
+    </footer> 
+
+    <script>
+      //Something fun 
+      var Lights = false ; 
+      let toggleLights = function () {
+        if ( Lights == false ) {
+           document.getElementsByTagName('body')[0].style = "background: #070707;";
+           Lights = true ;
+        } else {
+          document.getElementsByTagName('body')[0].style = "background: linear-gradient(0deg, #070707, black 80%) fixed no-repeat;";
+          Lights = false ;
+        }
+      };
+
+    </script>
+        
+    </body>
+</html>
